@@ -1,9 +1,18 @@
 h1 {
     background-color: #E5E2BB;
-    color:#FC9883; 
+    color:#ffffff; 
     }
 
 h2 {
     background-color: #BBE5D8;
-    color: #5AA4C7; 
+    color: #ffffff; 
     }
+
+a {
+    color: #ffffff; 
+    }
+
+.contenedor{
+    height: 100vh;
+    background: url(https://i.pinimg.com/originals/20/5f/45/205f456aa1faecf8eb9588ab2dc0b737.png) rgba(0, 0, 0, 0.5) no-repeat;
+}
