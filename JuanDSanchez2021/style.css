@@ -1,0 +1,14 @@
+h1 {
+    background-color: rgb(212, 212, 212);
+    color: rgb(61, 61, 0); 
+    }
+
+h2 {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff 
+    }
+
+.contenedor{
+    height: 50vh;
+    background: url(https://cdn.urbantecno.com/urbantecno/2022/06/lenguajes-programacion.jpg) rgba(0, 0, 0.5) no-repeat;
+}
