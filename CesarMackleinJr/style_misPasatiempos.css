@@ -1,34 +1,43 @@
+ * {
+        margin: 0;
+        padding: 10;
+        box-sizing: border-box;
+} 
 
+ div {
+    padding: 20px;
+}
 
 h1 {
     text-align: center;
-    background-color:violet
+    background-color:antiquewhite;
 }
 
 h2 {
     text-align: left;
 }
 
-div {
-    margin: 0;
-    padding: 0;
+h4 {
+    font-size:50px;
+    text-align: center;
+
 }
 
-#primerColor {
+.primerColor {
     height: 100%;
     background-color:lightpink;
     
 }
 
-#segundoColor {
+.segundoColor {
     background-color: wheat;
 }
 
-#figura {
+.figura {
     display: flex;
 }
 
-#infoDelfin {
+.infoDelfin {
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
@@ -36,4 +45,8 @@ div {
     font-style: italic;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    background-color: wheat;
 }
