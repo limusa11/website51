@@ -49,4 +49,12 @@ h4 {
 
 footer {
     background-color: wheat;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
