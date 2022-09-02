@@ -1,0 +1,40 @@
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 90%;
+    text-align: right;
+}
+
+.enlace-menu{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+body {
+    color: black;
+    font-family:'Verdana';
+}
+
+h1 {
+    color: black;
+    font-family:'Verdana';
+}
+
+h2 {
+    color: black;
+    font-family:'Verdana';
+    text-align: left;
+}
