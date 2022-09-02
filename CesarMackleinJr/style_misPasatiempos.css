@@ -39,7 +39,7 @@ header {
  /* Clases */
 
 .acercaDeMi {
-    background-image: url("/CesarMackleinJr/Recursos/Imagenes/universo.jpeg");
+    background-image: url("Recursos/Imagenes/universo.jpeg");
     color: white;
     align-items: center;
     text-align: center;
