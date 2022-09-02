@@ -38,3 +38,8 @@ h2 {
     font-family:'Verdana';
     text-align: left;
 }
+
+figure {
+    display: flex;
+    text-align: left;
+}
