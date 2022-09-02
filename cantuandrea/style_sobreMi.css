@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(233, 213, 158);
+    color: black;
+    font-family:'Verdana';
+}
+
+h1 {
+    background-color: rgb(252, 118, 140);
+    color: black;
+    font-family:'Verdana';
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(142, 240, 142);
+    color: black;
+    font-family:'Verdana';
+    text-align: left;
+}
