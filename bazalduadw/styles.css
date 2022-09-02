@@ -11,7 +11,12 @@ body{
 }
 
 header {
+    width: 100%;
     background: #f7f7f7;
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    z-index: 999;
 }
 
 .contenedor {
@@ -130,6 +135,11 @@ header {
 }
 
 @media screen and (max-width: 900px){
+
+    .pasatiempos{
+        margin-top: 25px;
+    }
+
     a.enlace-menu {
         padding: 5px !important;
         display: inline-block;
