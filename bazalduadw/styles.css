@@ -125,6 +125,21 @@ header {
 	animation-duration: 1s;
 }
 
+footer {
+    color: white;
+    background: rgba(0, 0, 0, 0.829);
+    padding: 20px 0px;
+}
+
+.texto-pie-de-pagina{
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
