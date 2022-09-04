@@ -5,13 +5,13 @@
 
 h1 {
     text-align: center;
-    background-color: #EBC7E8;
+    background-color: #7FBCD2;
     color: black;
     padding: 20px;
 }
 
 nav ul {
-    background-color: #FFFDDE;
+    background-color: #E1FFEE;
     width: 100%;
     list-style-type: none;
     text-align: center;
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav li:hover {
-    background-color: #FAD9A1;
+    background-color: #A5F1E9;
 }
 
 
@@ -38,15 +38,13 @@ nav li:hover {
     margin: 200px;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: 160px;
-}
 
 .secciones {
     display: flex;
     align-items: center;
     padding: 40px;
+}
+
+body{
+    background-color: #FFFBE7;
 }
