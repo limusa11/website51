@@ -1,0 +1,21 @@
+/* Color de fondo. */
+body {
+    background-color: rgb(160, 243, 160);
+    color: black;
+    font-family:'Verdana';
+}
+
+/* Color del primer título. */
+h1 {
+    background-color: rgb(253, 253, 87);
+    color:black;
+    text-align: center;
+    font-family:'Verdana';
+}
+
+.lista {
+    text-justify: auto;
+    font-family: 'Verdana';
+    font-size: 25px;
+    color: black;
+}
