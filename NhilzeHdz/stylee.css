@@ -32,19 +32,17 @@ nav li:hover {
     background-color: #FAD9A1;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-}
 
 .contenido {
     display: flex;
     margin: 200px;
 }
 
-.articulos {
-    width: 80%;
-    border-right: 3px solid black;
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: 160px;
 }
 
 .secciones {
