@@ -1,12 +1,54 @@
-h1{
-    color:red
+* {
+    padding: 0;
+    margin: 0;
 }
 
-h2{
-    color: blue
-}
-
-body{
-    background-color: azure ;
+h1 {
+    text-align: center;
+    background-color: #EBC7E8;
     color: black;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #FFFDDE;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    width: 200px;
+
+}
+
+nav li:hover {
+    background-color: #FAD9A1;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.contenido {
+    display: flex;
+    margin: 200px;
+}
+
+.articulos {
+    width: 80%;
+    border-right: 3px solid black;
+}
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
 }
