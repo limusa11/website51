@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    background: #f7f7f7;
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    z-index: 999;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen-de-perfil{
+    width: 10%;
+}
+
+.menu {
+    width: 90%;
+    text-align: right;
+}
+
+.enlace-menu{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+.enlace-menu:hover{
+    border-bottom: 1px solid black;
+}
+
+.p50{
+    padding: 50px 0px 50px 0px;
+}
+
+.titulo, .subtitulo{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.subtitulo{
+    font-size: 25px;
+}
+
+.pasatiempos{
+    background: white;
+   
+}
+
+.contenedor-pasatiempos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pasatiempo{
+    width: 33.3%;
+    text-align: center;
+}
+
+.pasatiempo .imagen-pasatiempo{
+    width: 30%;
+}
+
+.musica{
+    background: rgba(0, 0, 0, 0.829);
+}
+
+.video{
+    width: 100%;
+}
+
+.musica .subtitulo{
+    color: white;
+}
+
+.contenedor-fotos{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto{
+    max-width: 33.3%;
+}
+
+.foto img{
+    width: 100%;
+    vertical-align: top;
+}
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+footer {
+    color: white;
+    background: rgba(0, 0, 0, 0.829);
+    padding: 20px 0px;
+}
+
+.texto-pie-de-pagina{
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+    .pasatiempos{
+        margin-top: 25px;
+    }
+
+    a.enlace-menu {
+        padding: 5px !important;
+        display: inline-block;
+    }
+}
