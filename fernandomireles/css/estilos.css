@@ -1,0 +1,11 @@
+/* Selector de tipo */
+
+p {
+    font-size: 20px;
+}
+
+/* Selector por ID */
+#parrafo-sel-id {
+    background-color: blueviolet;
+    border-radius: 6px;
+}
