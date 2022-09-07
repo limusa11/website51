@@ -1,0 +1,22 @@
+
+/* Selector de tipo */
+
+p {
+    font-size: 80px;
+}
+
+/*selector por id */
+
+#parrafo-sel-id {
+    background-color: rgb(48, 218, 234);
+    border-radius: 10px;
+
+}
+
+
+/*selecto de clase*/
+
+.error {
+    color: red;
+    background-color: yellowgreen;
+}

@@ -1,0 +1,20 @@
+/* SELECTOR DE ESTILOS */
+
+body{
+    background-color: darkgrey;
+}
+
+p{
+    font-size: 70px;
+}
+
+#parrafo_sel_id{
+
+    font-size: 50px;
+    background-color: blueviolet;
+}
+
+.parrafo_sel_class{
+    font-size: 30px;
+    background-color: blue;
+}
