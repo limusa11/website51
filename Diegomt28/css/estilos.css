@@ -1,0 +1,25 @@
+/* Selectores de tipo */
+
+p {
+    font-size: 20px;
+}
+
+/* Selector por id */
+
+#parrafo-sel-id {
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+/* Selector por clase */
+
+#otro-parrafo {
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.error {
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+}

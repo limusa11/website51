@@ -9,3 +9,9 @@ p {
     background-color: blueviolet;
     border-radius: 6px;
 }
+
+/* Selector por clase  */
+.error {
+    color: red;
+    background-color: yellow;
+}
