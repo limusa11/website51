@@ -1,0 +1,15 @@
+/* Selector de tipo */
+
+p{
+    font-size: 20px;
+}
+
+#parrafo-sel-id{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.error {
+    color:red;
+    background-color: yellow;
+}
