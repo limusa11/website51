@@ -1,17 +1,18 @@
-/* Selector de tipo */
-
+/* Selector de Tipo */
 p {
-    font-size: 20px;
+    font-size: 8
+    80px;
 }
 
 /* Selector por ID */
 #parrafo-sel-id {
     background-color: blueviolet;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
-/* Selector por clase  */
-.error {
+/* Selector de Clase */
+.error{
     color: red;
     background-color: yellow;
 }
+
