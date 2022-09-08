@@ -5,47 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style_misPasatiempos.css">
-    <script>
+    <link rel="stylesheet" href="/CesarMackleinJr/css_estilos/style_misPasatiempos.css">
+    <!-- <script>
         alert("Bienvenido a mis gustos")
-    </script>
+    </script> -->
 </head>
 <body>
-    <h1>Mis gustos</h1>
 
-    <div id="primerColor">
-        <section id="acercaDeMi">
-            <h2>Acerca de mi</h2>
-            <article>
-                <div>
+    <!-- Barra Lateral -->
+    <div class="social-bar">
+        <a href="https://www.facebook.com/cesar.mackleinjr" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://www.youtube.com/channel/UCnOJc2Qj1tttGt2EGUFr_eA/videos" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/cesarmackleinjr/" class="icon icon-instagram" target="_blank"></a>
+      </div>
+
+    <!-- Barra Mis Gustos -->
+    <header>
+        <h1 class="fijo">Mis gustos</h1>
+    </header>
+    
+    <!-- Acerca de mi -->
+    <div class="acercaDeMi" style="margin-top: 30px;">
+        <!-- <h2>Acerca de mi</h2> -->
+        <div style="align-items: center;">
+            <div>
+                <section> 
+                    <img src="Recursos/Imagenes/Yo.jpeg" alt="Cesar Macklein" width="300">
+                    <section class="definicion">
+                        <dl>
+                            <b><dt>Fecha de Nacimiento</dt></b>
+                            <dd>Naci el <time datetime="1999-01-20">20 de enero &hearts; &#129321;</time></dd>
+                        </dl>
+                    </section>
+                </section>
+            </div>
+            <div>
+                <article>
                     <p> Hola yo soy <abrr title="Cesar Macklein Hernandez Peña">CMHP</abrr> y mi profe favorito es Juan Gabriel:)</p>
-                </div>
-            </article>
-
-            <section id="definicion">
-                <dl>
-                    <dt>Fecha de Nacimiento</dt>
-                    <dd>Naci el <time datetime="1999-01-20">20 de enero &hearts; &#129321;</time></dd>
-                </dl>
-            </section>
-        </section>
+                </article>
+            </div>
+        </div>
     </div>
 
-    <div id="segundoColor">
-        <section id="miEquipo">
+    <!-- Mi equipo Crack -->
+    <div class="segundoColor">
+        <section class="miEquipo">
             <h2>Mi Equipo Crack</h2>
             <p>Mi equipo se conforma de estos guapetones</p>
             <ul>
-                <li>Roberto Bouchspies</li>
-                <li>Valeria Palomares</li>
-                <li>Nhilze Hernandez</li>
-                <li>Luis Bazaldua</li>
+                
+                <li><a href="https://fdw51ad2022.github.io/website51/RobertoBouchspies/RobertoBouchspies_index.html" target="_blank">Roberto Bouchspies</a></li>
+                <li><a href="https://fdw51ad2022.github.io/website51/valeria-rmz/valeria-rmz_index.html" target="_blank">Valeria Palomares</a></li>
+                <li><a href="https://fdw51ad2022.github.io/website51/NhilzeHdz/NhilzeHdz_index.html" target="_blank">Nhilze Hernande</a></li>
+                <li><a href="https://fdw51ad2022.github.io/website51/cantuandrea/cantuandrea_index.html" target="_blank">Andrea Cantu</a></li>
+                <li><a href="https://fdw51ad2022.github.io/website51/bazalduadw/bazalduadw_index.html" target="_blank">Luis Bazaldua</a></li>
             </ul>
         </section>
     </div>
 
-    <div id="primerColor">
-        <section id="misGustos">
+    <!-- Barra Lateral -->
+    <div class="primerColor">
+        <h2>Mis amigos❤</h2>
+        <p>Gracias a estas personas es por lo que vengo a la facu, me falta tomarme
+            foto con algunos pero en verdad <b> son mi motivacion para levantarme cada 
+            mañana,</b> gracias!!.
+        </p>
+        <div style="text-align: center;">
+            <img src="Recursos/Imagenes/amigos.jpeg" alt="nievebitos" width="300">
+            <img src="Recursos/Imagenes/amigosCamaradas.jpeg" alt="amigosCamaradas" width="530">
+        </div>
+    </div>
+
+    <!-- Mis gustos -->
+    <div class="segundoColor">
+        <section class="misGustos">
             <h2>Mis gustos</h2>
             <ol>
                 <li>Bailar</li>
@@ -58,11 +91,12 @@
         </section>
     </div>
     
-    <div id="segundoColor">
-        <div id="figura">
+    <!-- Mi animal favorito -->
+    <div class="primerColor">
+        <div class="figura">
 
         
-        <section id="figura">
+        <section class="figura">
             <h2>Mi animal favorito</h2>
             <div>
         <figure>
@@ -116,11 +150,12 @@ _             |   `---'                    `'        `.  _,'
  `....,.._   /                                         `'  \       _,
           '''                                              `.___,,'
             </pre>
-            <figcaption>Delfin</figcaption>
+            <!-- <figcaption>Delfin</figcaption> -->
         </figure>
     </div>
-    <div id="infoDelfin">
+    <div class="infoDelfin">
         <blockquote cite="https://definicion.de/delfin/">
+            <h4>Delfin</h4>
             La etimología de delfín nos lleva al vocablo latino delphin, un término derivado del griego delphís. Un delfín es un animal mamífero acuático que forma parte del grupo de los cetáceos.
             Los delfines son piscívoros: comen peces. Existen más de una treintena de especies de este animal que suele medir unos tres metros de largo y que tiene una única abertura nasal.
             El cuerpo del delfín es oscuro en su parte superior y blanquecino en el sector inferior. Cuenta con una cabeza grande, boca grande con dientes en sus dos mandíbulas, hocico alargado y ojos pequeños.
@@ -132,15 +167,24 @@ _             |   `---'                    `'        `.  _,'
         </section>
     </div>
 
-    <section id="material">
-        <h2>Fotos y videos de mi</h2>
+    <!-- Fotos y videos -->
+    <section class="segundoColor">
+            <h2>Fotos y videos de mis gustos</h2>
 
+            <h3>Fotos</h3>
+            <div style="text-align: center;">
+                <img src="Recursos/Imagenes/StrangerThings.jpeg" alt="Stranger Things" width="300">
+                <img src="Recursos/Imagenes/Interestelar.jpeg" alt="Interestelar" width="950">
+            </div>
+
+            <h3>Video</h3>
+            <div style="text-align: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NOXILLV5_kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
     </section>
-
-
 </body>
+
 <footer>
-    <p>Desarrollado por: Cesar Macklein</p>
     <a href="CesarMackleinJr_index.html">Volver</a>
 </footer>
 </html>

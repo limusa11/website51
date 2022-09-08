@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Selector de tipo */
+
+p{
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+#parrafo-del-id{
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.parrafo-clase{
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.boton{
+    background-color: rgb(216, 158, 158);
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    bottom: 10px;
+}
