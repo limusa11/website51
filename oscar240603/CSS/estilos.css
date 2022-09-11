@@ -1,0 +1,22 @@
+/* Selector de tipo */
+
+ p {
+    font-size: 20px;
+ }
+
+/* Selector de id */
+
+#Parrafo-sel-id {
+    background-color: blue;
+    font-size: 20px;
+ }
+
+#otro-parrafo {
+    background-color: yellow;
+    font-size: 20px;
+ }
+
+.error {
+     color: red;
+     background-color: yellow;
+}
