@@ -14,4 +14,23 @@ p {
 .error {
     color: red;
     background-color: yellow;
+}+
+
+ /* Selector por atributo */
+/* p[lang] {
+    border: 3px dashed blue;
+} */
+
+p[lang="es"] {
+    background-color: aqua;
+}
+
+/* Selector por atributo, buscando un valor final */
+p[href$="mx"]{
+    background-color: red;
+}
+
+/* Selector por atributo,buscando un valor sin importar la posición donde se encuentre */
+p[href*="you"]{
+    border: 3px groove plum;
 }
