@@ -1,0 +1,23 @@
+/*selector  de tipo*/
+
+
+
+p {
+    font-size: 40px;
+}
+ /* selector por id */
+
+ 
+ #parrafo-sel-id {
+    background-color: blueviolet;
+    border-radius:10px;
+
+ }
+
+ /*selector por id */
+
+ .error {
+    background-color: red;
+    border-radius:10px;
+
+ }
