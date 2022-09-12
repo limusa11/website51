@@ -1,0 +1,14 @@
+p {font-size: 20px;
+    color: aqua;}
+ 
+    /*selector por id*/
+ #id_jpd{font-size: 20px;
+         color: blue;
+         border-radius: 10px;
+        }
+ 
+     /*selector pot clase*/
+ #caja1 {font-size: 20px;
+         color:rebeccapurple;
+         border-radius: 70px;
+         background-color: darkturquoise; }
