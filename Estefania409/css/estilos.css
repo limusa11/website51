@@ -57,3 +57,7 @@ section p{
 section > p {
     font-size: 25px;
 }
+
+#p-ini ~ p{
+    background-color: rebeccapurple;
+}
