@@ -2,7 +2,11 @@
 
 :root{
     --padding-container: 100px 0;
-    --color-title: #001a49;
+    --color-title: hsl(219, 100%, 14%);
+}
+
+html {
+    scroll-behavior: smooth; 
 }
 
 body{
@@ -118,7 +122,9 @@ body{
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+    margin: 5px;
 }
+
 
 /* Pregunta */
 
@@ -175,6 +181,10 @@ body{
 
 .about__icon{
     width: 40px;
+}
+
+.preguntas{
+    --padding-container: 50px 0;
 }
 
 /* Knowledge */
@@ -268,12 +278,19 @@ body{
     overflow: hidden;
 }
 
+.contacto__social a{
+    margin: 5px;
+}
+
 .contacto__container{
     display: grid;
     grid-template-columns: 500px 1fr;
     gap: 1em;
-    align-items: center;
-    /* text-align: center; */
+    align-items: start;
+}
+
+.contacto__title{
+    text-align: center;
 }
 
 .contacto__contacto{
@@ -500,6 +517,14 @@ body{
     .footer__container{
         flex-wrap: wrap;
         text-align: center;
+    }
+
+    .contacto__container{
+        display: block;
+    }
+
+    .contacto__redes{
+        margin-top: 40px;
     }
 
     .nav--footer{
