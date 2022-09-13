@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
+:root{
+    --padding-container: 100px 0;
+    --color-title: hsl(219, 100%, 14%);
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -29,4 +38,46 @@ p{
     border-radius: 10px;
     font-size: 15px;
     bottom: 10px;
+}
+
+/*  */
+p[lang] {
+    border: 2px dashed blue;
+}
+
+/* Selector por atributo valor especial */
+p[lang='es'] {
+    background-color: palevioletred;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Selector por atributo buscando un valor inicial */
+a[href^='https'] {
+    background-color: bisque;
+}
+
+/* Selector por atributo buscando un valor final */
+a[href$='https'] {
+    background-color: red;
+}
+
+/* Selector por atributo buscando un valor sin importar la posicion */
+a[href*='you'] {
+    /* background-color: plum; */
+    border: 2px groove plum;
+}
+
+/* Selector por descendientes */
+section p{
+    background-color: coral;
+    /* border-radius: 10px; */
+    text-align: center;
+}
+
+/* Selector por Hermano General */
+#p-ini ~ p{
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
 }
