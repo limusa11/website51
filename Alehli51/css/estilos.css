@@ -1,0 +1,25 @@
+
+p {font-size: 20px;
+    color: yellow;}
+ 
+ /* Selector por ID */
+ #id_jpd {font-size: 20px;
+     color: brown;
+     border-radius: 10px;
+ }
+ 
+ /* Selector por clase  */
+ #caja1 {font-size: 20px;
+     color: black;
+     border-radius: 70px;
+     background-color: yellow;}
+ 
+     /* Selector por atributo  */
+     p[:lang ](
+           border: 3px dashed blue:
+     )
+ 
+     /* Selector de valor especial  */
+ p[:lang= es](
+     blackgrund-color: aqua;
+ )
