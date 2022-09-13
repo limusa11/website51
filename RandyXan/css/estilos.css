@@ -1,0 +1,23 @@
+/* Selector de Tipo */
+p {
+    font-size: 8
+    80px;
+}
+
+/* Selector por ID */
+#parrafo-sel-id {
+    background-color: rgb(125, 226, 43);
+    border-radius: 10px;
+}
+
+/* Selector de Clase */
+.error{
+    color: rgb(0, 140, 255);
+    background-color: rgb(255, 255, 0);
+}
+
+/* Selector de Clase */
+p[lang="es"]{
+    
+    background-color: aqua;
+}
