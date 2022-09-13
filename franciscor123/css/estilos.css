@@ -16,3 +16,50 @@ p {
     color: red;
     background-color: blueviolet;
 }
+
+/* Selector por atributo*/
+
+p[lang]{
+border: 3px dashed blue;
+}
+
+/* Selector por atributo valor especial */
+
+p[lang="es"]{
+    background-color: aqua;
+    }
+
+/* Selector por atributo, buscando un valor inicial  */
+
+a[href^="https"]{
+    background-color: rgb(255, 251, 0);
+    }
+
+/* Selector por atributo, buscando un valor final  */
+
+a[href$="mx"]{
+    background-color: rgb(255, 0, 0);
+    }
+
+/* Selector por atributo, buscando un valor sin importar la posicion en la que se encuentre  */
+
+a[href*="you"]{
+    border: 3px groove plum;
+    }
+
+/* Selector por descendientes  */
+
+section p{
+font-size: 10px;
+}
+
+/* Selector por hijos directos  */
+section > p{
+    font-size: 25px;
+}
+
+/* Selector por hijos directos  */
+#p-ini ~ p{
+    background-color: blue;
+}
+

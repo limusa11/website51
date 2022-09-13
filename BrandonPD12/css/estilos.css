@@ -1,0 +1,26 @@
+
+
+p{font-size: 60px;
+    color: brown;}
+ 
+    /*selector por id*/
+ #id_jpd{font-size: 60px;
+         color:green;
+         border-radius: 10px;
+        }
+ 
+     /*selector pot clase*/
+ #c1 {font-size: 60px;
+         color:blue;
+         border-radius: 70px;
+         background-color:pink; }
+
+p[lang]{background: green;
+    background-color:pink}
+a[href$="https://www.youtube.com/watch?v=Jri4_9vBFiQ"]{
+    background-color: bisque;}
+    /*selector por atributo buscando  un valor si importar la posicion donde se encuentra */
+    a[href$="ini"]{
+        background-color: blueviolet;
+    }
+    
