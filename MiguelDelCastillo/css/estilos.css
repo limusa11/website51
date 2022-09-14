@@ -1,0 +1,73 @@
+/* SELECTOR DE ESTILOS */
+
+body {
+  background-color: darkgrey;
+}
+
+p {
+  font-size: 70px;
+  background-color: black;
+  border: 10px ridge pink;
+  border-radius: 2px;
+  font-style: oblique;
+  color: whitesmoke;
+}
+
+#parrafo_sel_id {
+  font-size: 50px;
+  background-color: blueviolet;
+}
+
+.parrafo_sel_class {
+  font-size: 30px;
+  background-color: blue;
+}
+
+/* Buscar por atributo */
+p[lang] {
+  background-color: yellow;
+  border: 5px dashed black;
+  border-radius: 2px;
+}
+
+h1 {
+  background-color: yellowgreen;
+}
+
+h2 {
+  background-color: wheat;
+  width: fit-content;
+  border-radius: 2px;
+}
+
+/* Selector por atributo, buscando un valor inicial */
+
+a[href^="https"] {
+  background-color: chartreuse;
+  font-size: 30px;
+}
+
+/* Buscar un valor no importe donde este */
+
+a[href*="you"] {
+  border: 3px groove plum;
+}
+
+/* Selector por descendiente */
+
+blockquote p {
+  background-color: teal;
+}
+
+/* Selector por hijos directos */
+
+section > p {
+  background-color: steelblue;
+  font-size: 100%;
+}
+
+/* Selector hermanos de leche */
+
+#p-ini ~ p {
+  background-color: blue;
+}
