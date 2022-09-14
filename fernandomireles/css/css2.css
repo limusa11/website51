@@ -21,3 +21,8 @@
     font-variant: small-caps;
     background-color: blue;
 }
+
+#lista-2 li:nth-child(odd){
+    background-color: black;
+    color: white;
+}
