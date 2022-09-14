@@ -1,0 +1,43 @@
+/*selector adyacente*/
+
+.titulo + p {
+border-top: 5px  slateblue;
+}
+
+.titulo:hover{
+    background-color: chocolate;
+    color: rgb(16, 231, 16);
+}
+
+ul li:first-child {
+    background-color: darkmagenta;
+}
+
+#lista-1 li:last-child{
+    box-shadow: 0px 5px 5px green;
+}
+
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: darkred;
+}
+
+#lista-1 li:nth-child(even){
+    background-color: violet;
+    color: darkkhaki;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: 5px -6px 7px black;
+}
+
+#grupo {
+    padding: 20px;
+    border: 50px dotted blueviolet;
+    margin: 50px;
+}
