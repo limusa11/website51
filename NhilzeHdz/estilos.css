@@ -1,0 +1,17 @@
+
+
+p {
+    font-size: 80px; 
+}
+
+#parrafo-sel-id {
+    background-color: #EBC7E8;
+    border-radius:  10px;
+}
+
+.error {
+    background-color: #BFACE0;
+    color: black;
+}
+
+
