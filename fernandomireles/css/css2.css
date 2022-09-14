@@ -22,7 +22,16 @@
     background-color: blue;
 }
 
-#lista-2 li:nth-child(odd){
-    background-color: black;
+/* odd es impar, even es par */
+#lista-2 li:nth-child(even){
+    background-color: gray;
     color: white;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
 }
