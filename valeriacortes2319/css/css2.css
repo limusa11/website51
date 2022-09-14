@@ -69,13 +69,17 @@ p::first-letter{
     margin: 50px;
 }
 
-/*blockquote {
+blockquote {
     display: inline;
-}*/
+}
 
 #bandera {
-    border-left: 100px solid green;
-    border-right: 100px solid red;
+    border: 2px solid black;
+    border-top: 2px groove black;
+    border-top-left-radius: 2px groove black;
+
+    border-left: 500px solid green;
+    border-right: 500px solid red;
     text-align: center;
     padding: 100px;
 }
