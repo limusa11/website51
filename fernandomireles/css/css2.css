@@ -1,0 +1,14 @@
+/* Selector adyacente */
+
+.titulo + p{
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+ul li:first-child {
+    background-color: gold;
+}
