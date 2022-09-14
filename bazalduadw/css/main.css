@@ -20,7 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(img/playa.jpg) rgba(0, 0, 0, 0.5);
+    background: url(../img/playa.jpg) rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
 }
 
