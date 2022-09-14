@@ -48,6 +48,7 @@ p::first-letter{
     background-color: green;
     display: inline-block;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 #bandera-blanco {
@@ -56,6 +57,7 @@ p::first-letter{
     border: 2px solid black;
     display: inline-block;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 #bandera-rojo {
@@ -63,4 +65,5 @@ p::first-letter{
     background-color: red;
     display: inline-block;
     margin: 0px;
+    box-sizing: border-box;
 }
