@@ -1,6 +1,7 @@
-/* Selector adyacente */
+/*Selector adyacente */
 
-.titulo + p{
+
+.titulo + p {
     border-top: 3px solid blue;
 }
 
@@ -13,22 +14,21 @@
     background-color: gold;
 }
 
-#lista-1 li:last-child {
+#lista-1  li:last-child{
     box-shadow: 5px 5px 5px green;
 }
 
-#lista-1 li:nth-child(4) {
+#lista-1  li:nth-child(4){
     font-variant: small-caps;
     background-color: blue;
 }
 
-/* odd es impar, even es par */
 #lista-2 li:nth-child(even){
     background-color: gray;
     color: white;
 }
 
-p::first-line{
+p::first-line {
     font-size: 30px;
 }
 
@@ -38,30 +38,56 @@ p::first-letter{
 }
 
 #grupo {
-    padding: 5px 10px 15px 20px;
+
+    display: inline;
+    /*Se seleccionan todos 
+    los border*/
+    padding: 50px;
+    /*50 arriba-abajo
+    10pz izq-der*/
+padding: 50px 10px;
+
+    /* 50 px arriba
+    10 izq-derecha
+    80 abajo*/ 
+    padding: 50px 10px 80px;
+    padding: 50px 10px 80px 100px;
+    padding-top: 50px;
+    padding-right:10px ;
+    padding-bottom:80px ;
+    padding-left:100px ;
+   
+
     border: 50px solid tomato;
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid gold;
     margin: 50px;
 }
 
-#bandera-verde {
-    padding: 80px;
+blockquote{
+    display: inline;
+}
+
+#verde {
+    padding: 50px;
     background-color: green;
     display: inline-block;
     margin: 0px;
     box-sizing: border-box;
 }
 
-#bandera-blanco {
-    padding: 80px;
+#blanco {
+    padding: 50px;
     background-color: white;
-    border: 2px solid black;
     display: inline-block;
     margin: 0px;
     box-sizing: border-box;
 }
 
-#bandera-rojo {
-    padding: 80px;
+#rojo {
+    padding: 50px;
     background-color: red;
     display: inline-block;
     margin: 0px;
