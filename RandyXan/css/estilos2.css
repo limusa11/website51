@@ -78,3 +78,18 @@ blockquote{
     box-sizing: border-box;
 }
 
+#blanco {
+    padding: 100px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#rojo {
+    padding: 100px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
