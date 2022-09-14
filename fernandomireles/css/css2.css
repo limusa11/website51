@@ -34,4 +34,11 @@ p::first-line{
 
 p::first-letter{
     font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+    padding: 20px;
+    border: 50px solid tomato;
+    margin: 50px;
 }
