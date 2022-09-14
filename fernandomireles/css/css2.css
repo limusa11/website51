@@ -12,3 +12,12 @@
 ul li:first-child {
     background-color: gold;
 }
+
+ul li:last-child {
+    box-shadow: 5px 5px 5px green;
+}
+
+ul li:nth-child(4) {
+    font-variant: small-caps;
+    background-color: blue;
+}
