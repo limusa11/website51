@@ -1,0 +1,80 @@
+/*selector adyacente*/
+body{background:dimgrey;}
+
+.titulo2 + p {
+    border-top: 3px solid blue;
+    color: aqua;
+}
+
+.titulo2:hover{
+    background: purple;
+    color: white;
+}
+
+ul li:first-child{
+    background-color:blue;
+}
+
+ul li:last-child{
+    box-shadow: 5px 5px 5px green;
+}
+
+ul li:nth-child(4){
+    font-variant: small-caps;
+    background-color:greenyellow;
+    
+}
+
+p:first-line{
+    font-size: 10px;
+
+}
+
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px 5px 10px indigo;
+}
+
+
+#caja1{
+    padding: 5px 10px 15px 80px ;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 1000;
+
+    border: 50px solid blue;
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+
+    
+    margin: 50px;
+}
+
+#bandera {
+    display: table
+  }
+#verde {
+    background: green;
+    display: table-cell;
+    width: 500px;
+    height:200px;
+} 
+
+
+#blanco{
+    display: table-cell;
+    width: 500px;
+    height:200px;
+    background: white;
+
+}
+
+#rojo{
+    display: table-cell;
+    width: 500px;
+    height:200px;
+    background: red;
+    
+}
