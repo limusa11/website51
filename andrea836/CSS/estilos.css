@@ -1,0 +1,54 @@
+/* Selector de tipo*/
+
+p{
+    font-size: 70px;
+}
+
+/* Selector por id*/
+#parrafo-sel-id {
+    background-color: blueviolet;
+    border-radius: 10 px;
+}
+
+/* Selector de clases*/
+.error {
+    color: brown;
+    background-color: blue;
+}
+
+/* Selector por atributo*/
+p[lang] {
+    border: 3px dashed darkmagenta;
+}
+
+/*Selector por atributo de valor especial*/
+p[lang= "es"] {
+    background-color: rgb(255, 0, 234);
+}
+
+/* Selector por atributo buscando el valor inicial*/ 
+a[href^="https"] {
+    background-color: rgb(42, 165, 124);
+}
+
+/* Selector por atributo buscado por el final*/
+a[href$="mx"] {
+    background-color: blueviolet;
+}
+
+/* Selector por atributo buscando un valor sin importar la posicion donde se encuentra*/
+a[href*="you"] {
+    border: 3 px groove palevioletred;
+} 
+
+/* Selector por descendente*/
+section p {
+    font-size: 70 px;
+}
+section > p {
+    font-size: 40px;
+}
+/* Selector de hermano general*/
+#p-ini ~ p{
+    background-color: rgb(42, 71, 165);
+}
