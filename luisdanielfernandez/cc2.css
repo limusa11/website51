@@ -65,4 +65,34 @@ p::first-letter{
     margin: 50px;
 }
 
+#bandera-verde {
+
+    padding: 50px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+#bandera-blanco {
+
+    padding: 50px;
+    background-color: white;
+    border: 4px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+#bandera-rojo {
+
+    padding: 50px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
 
