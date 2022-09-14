@@ -38,7 +38,29 @@ p::first-letter{
 }
 
 #grupo {
-    padding: 20px;
+    padding: 5px 10px 15px 20px;
     border: 50px solid tomato;
     margin: 50px;
+}
+
+#bandera-verde {
+    padding: 80px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+}
+
+#bandera-blanco {
+    padding: 80px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+}
+
+#bandera-rojo {
+    padding: 80px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
 }
