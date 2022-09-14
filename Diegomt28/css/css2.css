@@ -70,6 +70,31 @@ blockquote {
     display: inline;
 }
 
-.Mexico{
-    background-image:linear-gradient(90deg, green 33%, white 66.6%, red 66.6);
+
+
+#verde {
+    padding: 100px;
+    background-color: green;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#blanco {
+    padding: 100px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#rojo {
+    padding: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
 }
