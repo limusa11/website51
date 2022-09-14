@@ -70,19 +70,19 @@ blockquote{
     background-color: green;
     display: inline;
     padding: 50px;
-    
 }
+
 img{
+    height: 75px;
+    width: 100px;
     display: inline;
-    padding: 50px;
-    width: 10px;
-    height: 10px;
-    
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+
 #mexico{
     background-color: red;
     display: inline;
     padding: 50px;
-    
-
 }
