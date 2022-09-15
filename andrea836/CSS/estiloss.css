@@ -65,3 +65,43 @@ p::first-letter{
 blockquote{
     display: inline;
 }
+
+/*.mexico{
+	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}*/
+
+.wrapper {
+    display: flex;
+}
+ 
+.stick {
+    height: 450px;
+    width: 10px;
+    background: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ 
+.flag {
+    width: 270px;
+    height: 180px;
+    box-shadow: 0px 0px 90px 1px #989;
+    background-color: transparent;
+    position: relative;
+}
+
+.left {
+    height: 60px;
+    background-color: green
+}
+ 
+.center {
+    height: 60px;
+    background-color: white
+}
+ 
+.right {
+    height: 60px;
+    background-color: red
+}
