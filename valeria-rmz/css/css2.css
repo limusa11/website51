@@ -54,3 +54,24 @@ p::first-letter{
     
     margin: 50px;
 }
+
+#izq {
+    padding: 100px;
+    background-color: green;
+    display: inline;
+}
+
+
+#centro {
+    padding: 80px;
+    background-color: white;
+    display: inline;
+}
+
+
+#derecho {
+    padding: 100px;
+    background-color: red;
+    display: inline;
+}
+
