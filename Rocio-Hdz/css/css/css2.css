@@ -77,19 +77,22 @@ p::first-letter{
 }
 
 #verde {
-    padding: 100px;
+    padding: 215px;
     display: inline-flex;
     background-color: green ;
+    border: 1px solid black;
 }
 
 #blanco {
-    padding: 90px;
+    padding: 215px;
     background-color: white;
-    display: inline;
+    border: 1px solid black;
+    display: inline-flex;
 }
 
 #rojo {
-    padding: 100px;
+    padding: 215px;
     background-color: red;
+    border: 1px solid black;
     display: inline-flex;
 }
