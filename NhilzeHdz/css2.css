@@ -55,23 +55,35 @@ p::first-letter{
     margin: 50px;
 }
 
+.bandera{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.bandera section{
+    width: 33.3%;
+
+}
+
 #Verde {
-    padding: 200px;
     background-color: green;
-    display: inline-flex;
 }
 
 #Blanco {
-    background-color: white;
-    display: inline-flex;
-    align-items: center;
+    background-color: #F7F7F7;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.simbolo{
+    width: 50%;
+    height: 50%;
 }
 
 #Rojo {
-    padding: 200px;
     background-color: red;
-    display: inline-flex;
 }
 
 h1::first-letter{
