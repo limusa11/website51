@@ -1,0 +1,13 @@
+.titulo + p {
+    border-top: 5px solid gold;
+
+}
+ul li:first-child{
+    background-color: aquamarine;
+
+}
+
+#vivamexico{
+    height: 370px;
+    width: 370px;
+}
