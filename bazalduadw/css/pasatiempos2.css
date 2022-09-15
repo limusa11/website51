@@ -25,7 +25,7 @@ body{
 
 .container_menu{
     width: 50%;
-    background: url(./img/playa.jpg) rgba(0, 0, 0, 0.3);
+    background: url(../img/playa.jpg) rgba(0, 0, 0, 0.3);
     background-size:cover;
     background-blend-mode: multiply;
     height: 100vh;
