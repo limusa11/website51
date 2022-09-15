@@ -1,3 +1,5 @@
+body {background: grey;}
+
 p {font-size: 20px;
    color: aqua;}
 
@@ -12,3 +14,27 @@ p {font-size: 20px;
         color:rebeccapurple;
         border-radius: 70px;
         background-color: darkturquoise; }
+
+p[lang]{background: yellow;
+   border: 5px dashed black;
+}
+
+a[href^="https://ddlc.moe/"] {
+    background-color: red;
+}
+
+a[href$="https://castlevania.fandom.com/es/wiki/Castlevania_Wiki2"]{
+   background-color: yellow;}
+
+
+/*selector por atributo buscando un valor si importar la posicion donde la posicion donde se encuentra */
+
+a[href$="you"] {
+   background-color: yellow;}
+
+/*selector por decendiente*/
+ 
+section > p {font-size: 25px;
+}
+
+#live ~ p {background:rebeccapurple;}
