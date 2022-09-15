@@ -87,11 +87,11 @@ blockquote {
 }
 
 .izquierda {
-    background-color: black;
+    background-color: green;
 }
 
 .centro {
-    background-color: yellow;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,4 +99,9 @@ blockquote {
 
 .derecha {
     background-color: red;
+}
+
+.escudo {
+    height: 50%;
+    width: 100%;
 }
