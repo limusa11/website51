@@ -53,28 +53,32 @@ p::first-letter{
 }
 
 #bandera {
+    padding: 5px 10px 15px 350px ;
     display: table
   }
 #verde {
     background: green;
     display: table-cell;
-    width: 500px;
+    width: 200px;
     height:200px;
+    border: 1px solid black; 
+    
 } 
 
 
 #blanco{
     display: table-cell;
-    width: 500px;
+    width: 200px;
     height:200px;
     background: white;
+    border: 1px solid black; 
 
 }
 
 #rojo{
     display: table-cell;
-    width: 500px;
+    width: 200px;
     height:200px;
     background: red;
-    
+    border: 1px solid black; 
 }
