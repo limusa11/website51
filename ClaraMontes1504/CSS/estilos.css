@@ -18,3 +18,10 @@ p{
     background-color:lightpink;
     border-radius: 20px;
 }
+
+/* Selector por atributo */
+p[lang] {
+    background-color: lightpink;
+    border: 5px dotted black;
+    border-radius: 1px;
+  }
