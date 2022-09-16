@@ -43,3 +43,14 @@ section > p {
 #Parrafo-inicial ~ p {
     background-color: lightgreen;
 }
+
+/* Selector por atributo, buscando valor inicial */
+a[href^="https"] {
+    background-color: lightpink;
+    font-size: 30px;
+}
+  
+/* Buscar un valor*/
+a[href*="you"] {
+    border: 3px groove black;
+}
