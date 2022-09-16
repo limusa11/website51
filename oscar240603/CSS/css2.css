@@ -87,12 +87,12 @@ blockquote {
     background-color: green;
     display: inline-block;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 #Blanco {
     padding: 80px;
     background-color: white;
-    border: 2px solid black;
     display: inline-block;
     margin: 0px;
 }
