@@ -66,16 +66,16 @@ blockquote{
     display: inline;
 }
 
-.mexico{
+/*.mexico{
 	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
-}
+}*/
 
-/*.wrapper {
+.wrapper {
     display: flex;
 }
  
 .stick {
-    height: 450px;
+    height: 200px;
     width: 10px;
     background: black;
     border-left: 10px;
@@ -84,14 +84,14 @@ blockquote{
 }
  
 .flag {
-    width: 270px;
-    height: 180px;
+    width: 260px;
+    height: 85px;
     box-shadow: 0px 0px 90px 1px #989;
     background-color: transparent;
     position: relative;
 }
 
-.left {
+/*.left {
     height: 60px;
     background-color: green
 }
@@ -105,3 +105,29 @@ blockquote{
     height: 60px;
     background-color: red
 }*/
+
+.verde {
+    padding: 40px;
+    background-color: green;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.blanco {
+    padding: 40px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.rojo {
+    padding: 40px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
