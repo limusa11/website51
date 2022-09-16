@@ -75,7 +75,7 @@ blockquote{
 }
  
 .stick {
-    height: 200px;
+    height: 250px;
     width: 10px;
     background: black;
     border-left: 10px;
@@ -84,7 +84,7 @@ blockquote{
 }
  
 .flag {
-    width: 260px;
+    width: 257px;
     height: 85px;
     box-shadow: 0px 0px 90px 1px #989;
     background-color: transparent;
@@ -121,6 +121,7 @@ blockquote{
     display: inline-block;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 
 .rojo {
