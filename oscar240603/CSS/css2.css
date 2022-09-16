@@ -82,6 +82,27 @@ blockquote {
 	background-image:linear-gradient(90deg,green 33%,white 66.66%, red 66.66%);
 }
 
+#Verde {
+    padding: 80px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#Blanco {
+    padding: 80px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+}
+
+#Rojo {
+    padding: 80px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+}
 
 
 

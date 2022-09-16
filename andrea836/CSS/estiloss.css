@@ -1,3 +1,5 @@
+/*Selector adyacente*/
+
 .titulo + p{
     border-top: 3px solid blue;
 }
@@ -7,21 +9,27 @@
     color: white;
 }
 
-#lista-1 li:first-child{
+#lista1 li:first-child {
     background-color: gold;
 }
-#lista-1 li:last-child{
-    box-shadow: 5px 5px 5px green ;
+
+#lista1 li:last-child {
+    box-shadow: 5px 5px 5px green;
 }
 
-#lista-1 li:nth-child(4){
+#lista1 li:nth-child(4) {
     font-variant: small-caps;
-    background-color: blue;
+    background-color: orange;
 }
 
-#lista-2 li:nth-child(odd){
-    background-color: rgb(172, 162, 162);
-    color: rgb(43, 41, 41);
+#lista2 li:nth-child(even){
+    background-color: brown;
+    color: silver;
+}
+
+#lista2 li:nth-child(odd){
+    background-color: rgb(57, 57, 214);
+    color: white;
 }
 
 p::first-line{
@@ -30,36 +38,39 @@ p::first-line{
 
 p::first-letter{
     font-size: 80px;
-    box-shadow: 5px -5px 10px black;
+    box-shadow: -5px -5px 10px black;
 }
 
-#grupo{
-    /* 50px todos los lados */
-    padding: 50px;
+#grupo {
 
-    /* 50px arriba-abajo
-       10px izq-der */
+    display: inline;
+
+
+    /* todos los lados*/
+    padding: 50px 10px 80px;
+
+    /*50px arriba-abajo
+    10 px izq-der */
     padding: 50px 10px;
 
-    /* 50px arriba
-       10px izq-der
-       80px abajo */
-       padding: 50px 10px 80px;
-    
+    /*50px arriba-abajo 10 px izq-der 80 px abajo*/   
+    padding: 50px 10px 80px;
+
+    /*50px arriba-abajo 10 px izq-der 80 px abajo 100px izq*/
     padding: 50px 10px 80px 100px;
 
     padding-top: 50px;
-    padding-right: 10px;
+    padding-right: 10 px;
     padding-bottom: 80px;
     padding-left: 100px;
 
-    border: 50px solid tomato;
+    /*border: 50px solid tomato;
     border-top: 5px groove red;
     border-bottom: 10px dashed blue;
     border-left: 20px solid green;
     border-right: 5px solid yellow;
 
-    margin: 50px;
+    margin: 50px;*/
 }
 
 blockquote{
