@@ -18,3 +18,28 @@ p{
     background-color:lightpink;
     border-radius: 20px;
 }
+
+/* Selector por atributo */
+p[lang] {
+    background-color: lightpink;
+    border: 5px dotted black;
+    border-radius: 1px;
+  }
+
+/* Selector por descendiente */
+
+blockquote p {
+    background-color: lavender;
+  }
+  
+/* Selector por hijos directos */
+  
+section > p {
+    background-color: lightcoral;
+    font-size: 100%;
+}
+  
+/* Selector hermanos de leche */
+#Parrafo-inicial ~ p {
+    background-color: lightgreen;
+}
