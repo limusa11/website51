@@ -86,17 +86,22 @@ blockquote {
     border: 3px solid black;
 }
 
-.izquierda {
-    background-color: black;
+.verde {
+    background-color: green;
 }
 
-.centro {
-    background-color: yellow;
+.blanco {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.derecha {
+.rojo {
     background-color: red;
+}
+
+.escudo {
+    height: 50%;
+    width: 100%;
 }
