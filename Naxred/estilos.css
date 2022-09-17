@@ -54,3 +54,15 @@ aside {
     width: 30%;
     height: auto;
 }
+
+.barra-lateral{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+}
+
+.img-series-peliculas{
+    width: 80%;
+    height: 80%;
+}
