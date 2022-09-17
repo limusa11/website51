@@ -70,24 +70,9 @@ p::first-letter{
     border-bottom: 10px dashed blue;
     border-left: 20px solid green;
     border-right: 5px solid gold;
-
-
-
     margin: 50px;
 }
 
     blockquote {
         display: inline;
     }
-
-    #bandera {
-        margin: 50px;
-        border-left: 100px solid green;
-        border-right: 100px solid red;
-        padding: 100px 0px;
-        font-size: 200px;
-        text-align: center;
-        color: rgb(red, green, blue)
-    }
-        
-    

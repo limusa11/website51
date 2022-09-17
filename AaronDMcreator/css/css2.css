@@ -71,17 +71,15 @@ blockquote{
     display: inline;
     padding: 50px;
 }
-#imgg{
+
+img{
+    height: 75px;
+    width: 100px;
     display: inline;
-    background-color: rgb(143, 137, 137);
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-#imgg img{
-    height: 60px;
-    width: 70px;
-    display: inline;
-    padding-top: 10px;
-}
+
 
 #mexico{
     background-color: red;
