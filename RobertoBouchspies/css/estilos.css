@@ -1,5 +1,5 @@
 /* SELECTOR DE TIPO */
-P {
+p {
     font-size: 80px;
 }
 
@@ -53,6 +53,6 @@ section > p {
 }
 
 /* SELECTOR POR HERMANO GENERAL */
-section ~ p {
+#p-ini ~ p {
     background-color: yellow;
 }
