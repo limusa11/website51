@@ -15,8 +15,6 @@ background-color: rgb(88, 29, 199);
     font-size: 30px;
 }
 
-
-
   /* Buscar por atributo */
 p[lang] {
     border: 5px dashed black;
@@ -54,12 +52,11 @@ p[lang] {
   /* Selector por hijos directos */
   
   section > p {
-    background-color: rgb(218, 170, 39);
     font-size: 100%;
   }
   
   /* Selector hermanos de leche */
   
   #p-ini ~ p {
-    background-color: rgb(118, 118, 161);
+    color: rgb(118, 118, 161);
   }
