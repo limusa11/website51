@@ -23,7 +23,7 @@
 
 .enlace-menu{
     padding: 0px 20px;
-    text-decoration: none;
+    text-decoration:none;
     color: black;
     padding-bottom: 5px;
     border-bottom: 1px solid transparent;
@@ -39,7 +39,6 @@ h1 {
     color: black;
     font-family:'Verdana';
     padding: 20px;
-    background-color: #97D2EC;
 }
 
 h2 {
@@ -65,11 +64,6 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.final {
-    background-color: #E1FFEE;
-    padding: 10px;
 }
 
 .enlace-menu:hover{
@@ -107,3 +101,11 @@ blockquote{
 /* address{
     text-align: center;
 } */
+
+.general {
+    padding: 10px;
+}
+
+.section-presentacion {
+    background-image: url(/website51/RobertoBouchspies/Recursos/Fondo4.jpg);
+}
