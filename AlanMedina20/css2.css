@@ -66,14 +66,21 @@ p::first-letter{
 
     border: 50px solid tomato;
 
-    border-top: 5px groove tomato;
+    border-top: 10px groove tomato;
     border-bottom: 10px dashed blue;
     border-left: 20px solid green;
-    border-right: 5px solid gold;
+    border-right: 20px solid gold;
     margin: 50px;
 
 
 }
+
+
+#mexicana span {display:inline-block;width:400px;height:450px;}
+#mexicana span:nth-child(1) {background-color: green;}
+#mexicana span:nth-child(2) {background-color:white;}
+#mexicana span:nth-child(3) {background-color:red;}
+	
 
 
 
