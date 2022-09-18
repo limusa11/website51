@@ -1,0 +1,14 @@
+html {
+    background-color: #ccc;
+    
+}
+body{
+    background-color: #fff;
+    padding: 10px;
+}
+main{
+    padding: 25px;
+}
+.images-section{
+    display: flex;
+}
