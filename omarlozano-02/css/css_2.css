@@ -1,7 +1,7 @@
 /* Selector adyacente */
  
 .titulo + p {
-    border-top: 3px solid rgb(55, 226, 183);
+    border-top: 3px solid rgb(29, 72, 62);
 }
 .titulo:hover{
     background-color: rgb(106, 255, 0);
@@ -11,11 +11,12 @@
     background-color: gold;
 }
 #lista-1 li:last-child{
-    box-shadow: 5px 5px 5px green;
+    box-shadow: 5px 5px 5px rgb(105, 130, 105);
 }
 #lista-1 li:nth-child(4){
     font-variant: small-caps;
-    background-color: blueviolet;
+    background-color: rgb(51, 46, 56);
+    color: wheat;
 }
 #lista-2 li:nth-child(odd){
     background-color: gray;
@@ -26,7 +27,7 @@ p::first-line{
 }
 p::first-letter{
     font-size: 80px;
-    box-shadow: -5px -5px 10px rgb(203, 55, 55);
+    box-shadow: -5px -5px 10px rgb(79, 47, 47);
 }
 #grupo {
 
@@ -43,12 +44,12 @@ p::first-letter{
     padding-bottom: 80px;
     padding-left: 100px;
 
-    border: 50px solid tomato;
+    border: 50px solid red;
 
     border-top: 5px groove red;
-    border-bottom: 10px dashed blue;
-    border-left: 20px solid green;
-    border-right: 5px solid gold;
+    border-bottom: 10px dashed yellow;
+    border-left: 20px solid black;
+    border-right: 5px solid orange;
     
     margin: 50px;
 }
