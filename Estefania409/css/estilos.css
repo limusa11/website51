@@ -1,11 +1,4 @@
 
-/* Selector de tipo  */
-
-
-p {
-    font-size:80px;
-}
-
 
 /* Selector por id   */
 #parrafo-sel-id {
@@ -36,11 +29,13 @@ p[lang="es"] {
 /* Selector por atributo, buscando un valor  inicial */
 a[href$="mx"] {
     background-color: red;
+    font-size: 30px;
 }
 
 /* Selector por atributo, buscando un valor  inicial */
 a[href^="https"] {
     background-color: green;
+    font-size: 30px;
 }
 
 /* Selelctor por atributo, buscando unvalor especial sin importar la posicion donde se enscuente */
