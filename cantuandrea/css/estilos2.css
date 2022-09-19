@@ -10,11 +10,11 @@
 }
 
 #lista-1 :first-child {
-    background-color: yellow;
+    background-color: purple;
 }
 
 #lista-1 :last-child {
-    background-color: yellow;
+    background-color: burlywood;
 }
 
 #lista-1 :nth-child(4) {
