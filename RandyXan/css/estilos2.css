@@ -1,65 +1,96 @@
+/*Selector adyacente */
 
-/* selector de tipo */
 
-
-p {
-    font-size: 80px; 
+.titulo + p {
+    border-top: 3px solid blue;
 }
 
-/* Selector por id */
-
-#parrafo-sel-id {
-    background-color: blueviolet;
-    border-radius: 10px;
-}
-
-/*Selector de clase*/
-
-.error{
-    color: red;
-    background-color: yellow;
-}
-
-/*Selector por atributo*/
-p[lang]{
-    border: 3px dashed blue;
-}
-
-/*Selector por atributo valor especial */
-p[lang="es"] {
-    background-color: aqua;
-}
-
-/*Selector por atributo, buscando 
-un valor especial */
-a[href^="https"] {
-    background-color: greenyellow;
-}
-
-/*Selector por atributo, buscando 
-un valor final */
-a[href$="mx"] {
+.titulo:hover{
     background-color: red;
+    color: white;
 }
 
-/*Selector por atributo, buscando 
-un valor sin importar la posicion
-donde se enccuentre*/
-a[href*="you"] {
-    border: 3px groove plum;
+#lista-1 li:first-child {
+    background-color: gold;
 }
 
-/* Selector por descendientes */
-section p {
-    font-size: 3px;
+#lista-1  li:last-child{
+    box-shadow: 5px 5px 5px green;
 }
 
-/* sSelector por hijos directos */
-section > p{
-    font-size: 25px;
+#lista-1  li:nth-child(4){
+    font-variant: small-caps;
+    background-color: blue;
 }
 
-/*Selector hermano general*/
-#p-ini ~ p{
-    background-color: rebeccapurple;
-} 
+#lista-2 li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+p::first-line {
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+
+    display: inline;
+    /*Se seleccionan todos 
+    los border*/
+    padding: 50px;
+    /*50 arriba-abajo
+    10pz izq-der*/
+    padding: 50px 10px;
+
+    /* 50 px arriba
+    10 izq-derecha
+    80 abajo*/ 
+    padding: 50px 10px 80px;
+    padding: 50px 10px 80px 100px;
+    padding-top: 50px;
+    padding-right:10px ;
+    padding-bottom:80px ;
+    padding-left:100px ;
+   
+
+    border: 50px solid tomato;
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid gold;
+    margin: 50px;
+}
+
+blockquote{
+    display: inline;
+}
+
+#verde {
+    padding: 130px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#blanco {
+    padding: 130px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+#rojo {
+    padding: 130px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
