@@ -141,3 +141,8 @@ li{
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
+.boton{
+    display: inherit;
+    text-align: center;
+}
