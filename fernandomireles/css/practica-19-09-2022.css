@@ -3,8 +3,14 @@ h1{
     padding: 3em;
 }
 
-div{
+#viewport{
     background-color: tomato;
     width: 80vw;
     height: 50vh;
+}
+
+#porcentaje{
+    font-size: 200%;
+    background-color: green;
+    width: 100px    ;
 }
