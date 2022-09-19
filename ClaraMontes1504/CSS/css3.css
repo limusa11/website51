@@ -36,8 +36,18 @@ Sin editor del html
 }
 
 .productos{
-    background-color: aquamarine;
+    background-color: #FF9494;
     height: 100vh;
     width: 70vw;
 }
 
+
+.overflow{
+    background-color: darkseagreen;
+    width: 200px;
+    height: 5em;
+    overflow:scroll; /* Barra de navegaciòn por los dos lados */
+   /* Se pone la barra de navegación en un lado overflow: auto; */
+    /* Esconde lo que no cabe overflow: hidden; */
+    
+}
