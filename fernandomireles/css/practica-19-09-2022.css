@@ -3,3 +3,8 @@ h1{
     padding: 3em;
 }
 
+div{
+    background-color: tomato;
+    width: 80vw;
+    height: 50vh;
+}
