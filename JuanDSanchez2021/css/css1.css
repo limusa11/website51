@@ -1,58 +1,66 @@
-/* SELECTOR DE TIPO */
-P {
-    font-size: 80px;
-}
+/* Selector de tipo */
 
-/* SELECTOR DE ID */
-#parrafo-sel-id{
-    background-color: blueviolet;
-    border-radius: 10px;
-}
 
-/* SELECTOR DE CLASE */
-.error {
-    background-color: yellow;
-    color: red;
-}
-
-/* SELECTOR POR ATRIBUTO */
-
-p[lang] {
-    border: 3px dashed blue;
-}
-
-/* SELECTOR POR ATRIBUTO VALOR ESPECIAL */
-
-p[lang="es"] {
-    background-color: aqua;
-}
-
-/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR INICIAL */
-a[href^="https"] {
-    background-color: greenyellow;
-}
-
-/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR FINAL */
-a[href$="mx"] {
-    background-color: red;
-}
-
-/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR SIN IMPORTAR LA POSICION DONDE SE ENCUENTRE */
-a[href*="you"] {
-    border: 3px groove plum;
-}
-
-/* SELECTOR POR DESCENDIENTES */
-section p {
-    font-size: 3px;
-}
-
-/* SELECTOR POR DESCENDIENTES */
-section > p {
-    font-size:25px;
-}
-
-/* SELECTOR POR DESCENDIENTES */
-section ~ p {
-    background-color: blue;
-}
+p {
+    font-size: 80px; 
+ }
+ 
+ /* Selector por id */
+ 
+ #parrafo-sel-id {
+     background-color: blueviolet;
+     border-radius: 10px;
+ }
+ 
+ /* Selector de clase */
+ 
+ .error {
+     color: red;
+     background-color: yellow;
+ }
+ 
+ /* Selector por atributo */
+ /* p[lang] {
+     border: 3px dashed blue;
+ }
+  */
+ 
+ /* Selector por atributo valor especial */
+ p[lang="es"] {
+     background-color: aqua;
+ }
+ 
+ /* Selector por atributo, buscando
+ un valor inicial */
+ 
+ a[href^="https"] {
+     background-color: greenyellow;
+ }
+ 
+ /* Selector por atributo, buscando
+ un valor final */
+ a[href$="mx"] {
+     background-color: red;
+ }
+ 
+ /* Selector por atributo, buscando
+ un valor sin importar la posicion
+ donde se encuentre */
+ a[href*="you"] {
+     border: 3px groove plum;
+ }
+ 
+ /* Selector por descendientes */
+ section p {
+     font-size: 3px;
+ }
+ 
+ /* Selector por hijos directos */
+ section > p {
+     font-size:25px;
+ }
+ 
+ /* Selector hermano general */
+ #p-ini ~ p {
+    background-color: blue;  
+ }
