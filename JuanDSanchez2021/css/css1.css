@@ -54,5 +54,5 @@ section > p {
 
 /* SELECTOR POR DESCENDIENTES */
 section ~ p {
-    background-color: yellow;
+    background-color: blue;
 }
