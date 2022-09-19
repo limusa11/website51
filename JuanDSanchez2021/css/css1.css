@@ -62,5 +62,5 @@ p {
  
  /* Selector hermano general */
  #p-ini ~ p {
-    background-color: rebeccapurple;  
+    background-color: blue;  
  }
