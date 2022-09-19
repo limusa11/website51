@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-text-color-1 { color: #666; }
 .tm-text-color-2 { color: #333; }
 .tm-text-white { color: #fff; }
+.tm-text-white:hover { color: #fff}
 .text-center { text-align: center; }
 
 .tm-site-header {
