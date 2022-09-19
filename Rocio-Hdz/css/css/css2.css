@@ -70,29 +70,43 @@ blockquote {
 }
 
 
-/*  bandera */
+/* BANDERA */
+.bandera{
+    display: flex;
+    width: 80%;
+    height: 400px;
+}
+
+.bandera p{
+    width: 33.3%;
+
+}
+
 p::first-letter{
     font-size: 80px;
-    box-shadow: -5px -5px 10px red;
+    box-shadow: -5px -5px 10px #FF1700;
 }
 
 #verde {
-    padding: 215px;
-    display: inline-flex;
-    background-color: green ;
+    background-color: green;
     border: 1px solid black;
 }
 
 #blanco {
-    padding: 215px;
-    background-color: white;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
-    display: inline-flex;
+}
+
+.escudo{
+    width: 80%;
+    height: 50%;
 }
 
 #rojo {
-    padding: 215px;
     background-color: red;
     border: 1px solid black;
-    display: inline-flex;
 }
+
