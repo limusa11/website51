@@ -1,0 +1,43 @@
+html{
+    font-size: 15px;
+    /* Todo cambia de manera proporcional */
+}
+
+.u-em{
+    background-color: lavender;
+    font-size: 3rem;
+
+    /* El 50% del contenedor  */
+    width: 50%;
+
+    /* 5 em es igual a 5 veces el tamaño de fuente del elemento y el elemento es 3rem
+    es equivalente a 15x3 =45  */
+    padding: 5em 3em;
+    border:solid black 3px;
+}
+
+/* Tamaño de letra 
+Con editor de html
+    15x3= 45 tamaño de fuente
+
+Sin editor del html
+    3x16= 48 tamaño de fuente 
+*/
+
+/* body{
+    width: 50%;
+    background-color:cornsilk;
+} */
+
+.u-porcentaje{
+    background-color: lightpink;
+    width: 50%;
+    height: 200px;
+}
+
+.productos{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 70vw;
+}
+
