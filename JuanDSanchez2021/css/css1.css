@@ -1,25 +1,58 @@
+/* SELECTOR DE TIPO */
+P {
+    font-size: 80px;
+}
 
-    /* Selector de tipo */
+/* SELECTOR DE ID */
+#parrafo-sel-id{
+    background-color: blueviolet;
+    border-radius: 10px;
+}
 
+/* SELECTOR DE CLASE */
+.error {
+    background-color: yellow;
+    color: red;
+}
 
-    p {
-        font-size: 80px;
-    }
+/* SELECTOR POR ATRIBUTO */
 
-    /* Selector por id */
+p[lang] {
+    border: 3px dashed blue;
+}
 
-    #parrafo-del-id{
-        background-color: aqua;
-        border-radius: 19px;
-    }
+/* SELECTOR POR ATRIBUTO VALOR ESPECIAL */
 
-    .parrafo-clase{
-        background-color: coral;
-        border-radius: 19px;
-    }
+p[lang="es"] {
+    background-color: aqua;
+}
 
-    .boton{
-        background-color: brown;
-        border-radius: 19px;
-        font-size: 19px;
-    }
+/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR INICIAL */
+a[href^="https"] {
+    background-color: greenyellow;
+}
+
+/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR FINAL */
+a[href$="mx"] {
+    background-color: red;
+}
+
+/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR SIN IMPORTAR LA POSICION DONDE SE ENCUENTRE */
+a[href*="you"] {
+    border: 3px groove plum;
+}
+
+/* SELECTOR POR DESCENDIENTES */
+section p {
+    font-size: 3px;
+}
+
+/* SELECTOR POR DESCENDIENTES */
+section > p {
+    font-size:25px;
+}
+
+/* SELECTOR POR DESCENDIENTES */
+section ~ p {
+    background-color: yellow;
+}
