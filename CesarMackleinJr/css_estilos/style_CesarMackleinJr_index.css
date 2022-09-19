@@ -5,16 +5,94 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color:darkblue;
 }
 
-.lista {
+h2 {
+    text-align: left;
+    color:indianred
+}
+
+.botones {
+    align-items: left;
+    align-self: left;
+    text-align: left;
+    height: 100px;
+    padding: 25px;
+}
+
+button{
+    background-color: lightpink;
+    padding: 15px 25px;
+}
+
+button:hover {
+    background-color:mediumpurple;
+}
+.volver {
+    color: purple;
+    text-decoration: none;
+}
+.volver:hover {
+    color: aquamarine;
+}
+
+.arrowLeft {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    background-color:hotpink;
+}
+
+.arrowLeft::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 14px solid white;
+}
+
+footer {
+    display: block;
+    
+}
+
+.usuario {
+    
+}
+
+/* .lista {
     text-justify: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     color: black;
     font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
 }
 
+ol {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+} */
+
+/* a:hover{
+    border-bottom: 1px solid black;
+} */

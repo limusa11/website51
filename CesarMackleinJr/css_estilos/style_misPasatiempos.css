@@ -42,7 +42,7 @@ body {
  /* Clases */
 
 .acercaDeMi {
-    background-image: url("Recursos/Imagenes/universo.jpeg");
+    background-image: url("../Recursos/Imagenes/universo.jpeg");
     color: white;
     align-items: center;
     text-align: center;
@@ -122,11 +122,11 @@ body {
 
     @font-face {
         font-family: 'icomoon';
-        src:  url('fonts/icomoon.eot?i226ha');
-        src:  url('fonts/icomoon.eot?i226ha#iefix') format('embedded-opentype'),
-          url('fonts/icomoon.ttf?i226ha') format('truetype'),
-          url('fonts/icomoon.woff?i226ha') format('woff'),
-          url('fonts/icomoon.svg?i226ha#icomoon') format('svg');
+        src:  url('../fonts/icomoon.eot?i226ha');
+        src:  url('../fonts/icomoon.eot?i226ha#iefix') format('embedded-opentype'),
+          url('../fonts/icomoon.ttf?i226ha') format('truetype'),
+          url('../fonts/icomoon.woff?i226ha') format('woff'),
+          url('../fonts/icomoon.svg?i226ha#icomoon') format('svg');
         font-weight: normal;
         font-style: normal;
       }
