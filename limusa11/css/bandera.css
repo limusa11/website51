@@ -1,0 +1,28 @@
+/**
+ * Bandera de mexico
+ */
+
+
+ #one {
+	background:white;
+	width:180px;
+	height:200px;
+	left:180px;
+	position:absolute;
+	top:10px;
+}
+#two {
+	background:red;
+	width:180px;
+	height:200px;
+	position:absolute;
+	left:360px;
+	top:10px;
+}
+#tree {
+	background:green;
+	width:180px;
+	height:200px;
+	position:absolute;
+	top:10px;	
+}
