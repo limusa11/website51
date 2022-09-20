@@ -1,28 +1,23 @@
-/**
- * Bandera de mexico
- */
-
-
- #one {
-	background:white;
-	width:180px;
-	height:200px;
-	left:180px;
-	position:absolute;
-	top:10px;
-}
-#two {
-	background:red;
-	width:180px;
-	height:200px;
-	position:absolute;
-	left:360px;
-	top:10px;
-}
-#tree {
-	background:green;
-	width:180px;
-	height:200px;
-	position:absolute;
-	top:10px;	
-}
+.color1 {
+    display: inline-block;
+    width: 80px;           
+    height: 150px;          
+    background: green;       
+    border: 1px solid #000; 
+  }
+  
+  .color2 {
+    display: inline-block;
+    width: 80px;          
+    height: 150px;         
+    background: white;        
+    border: 1px solid #000; 
+  }
+  
+  .color3 {
+    display: inline-block;
+    width: 80px;          
+    height: 150px;         
+    background: red;       
+    border: 1px solid #000; 
+  }
